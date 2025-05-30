@@ -4,12 +4,14 @@ body {
 	margin: auto;
 	width: 70%;
 	padding: 5%;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: normal
 }
 
 h1 {
   font-family: "Roboto", sans-serif;
-  font-weight: lighter;	
-  font-size: xx-large;
+  font-weight: 100;	
+  font-size: 2.5rem;
 }
 
 h2 {
@@ -22,6 +24,10 @@ li {
   font-family: "Roboto", sans-serif;
   font-weight: lighter;
   font-size: medium;
+}
+
+p {
+	font-weight: 100;
 }
 
 /*a:link - a normal, unvisited link*/
@@ -62,3 +68,11 @@ a:active {
 
 }
 
+#result {
+	background-color: aquamarine;
+	padding: 1%;
+	font-style: italic;
+}
+#heroName {
+	color: #bf8adf;;
+}
